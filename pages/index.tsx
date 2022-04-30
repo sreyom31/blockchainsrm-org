@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import About from '../components/home/about';
 import Landing from '../components/home/landing';
 import Navbar from '../components/navbar';
 
@@ -10,6 +11,7 @@ export default function Home() {
       </Head>
       <Navbar />
       <Landing />
+      <About />
     </div>
   );
 }

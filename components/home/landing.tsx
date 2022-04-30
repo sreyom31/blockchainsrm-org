@@ -2,7 +2,7 @@ import { ArrowRight } from 'react-feather';
 
 const Landing = () => {
   return (
-    <div className="2xl:p-10 my-5 mb-10">
+    <div className="p-6 lg:p-8 xl:p-9 2xl:p-10 my-5 mb-10">
       <div className="flex flex-col items-center md:flex-row">
         <div className="md:w-1/2 flex items-center">
           <img src="/images/landingimg.svg" alt="landing image" />
