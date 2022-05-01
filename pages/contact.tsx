@@ -12,7 +12,9 @@ const Contact = () => {
           <div className="md:w-1/2 text-white">
             <div className="flex flex-col items-end py-4 px-8 lg:px-16 mr-20">
               <p className="text-2xl lg:text-3xl mb-2">Have a doubt?</p>
-              <p className="text-2xl lg:text-3xl mb-2">Drop&apos;us an email at</p>
+              <p className="text-2xl lg:text-3xl mb-2">
+                Drop&apos;us an email at
+              </p>
               <p className="font-bold text-2xl lg:text-3xl mb-2">abc@xyz.com</p>
             </div>
             <div className="flex flex-col items-end py-4 px-8 lg:px-16 mr-20">
@@ -31,19 +33,19 @@ const Contact = () => {
               <div className="lg:my-2 lg:py-2 flex flex-col items-center w-full">
                 <form className="w-full">
                   <input
-                    className="bg-transparent border-2 rounded-xl mt-4 mb-6 block p-3 w-full text-xl"
+                    className="bg-transparent border-x border-y rounded-lg mt-4 mb-6 block p-3 w-full text-xl"
                     placeholder="Full Name"
                     type="text"
                   />
                   <input
-                    className="bg-transparent border-2 rounded-xl mb-6 block p-3 w-full text-xl"
+                    className="bg-transparent border-x border-y rounded-lg mb-6 block p-3 w-full text-xl"
                     placeholder="Email Address"
                     type="email"
                     name="email"
                     id="email"
                   />
                   <textarea
-                    className="bg-transparent border-2 rounded-xl p-3 w-full text-xl"
+                    className="bg-transparent border-x border-y rounded-lg p-3 w-full text-xl"
                     placeholder="Your Message"
                     name="message"
                     type="text"
