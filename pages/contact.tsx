@@ -1,5 +1,6 @@
 import Navbar from '../components/navbar';
 
+
 const Contact = () => {
   return (
     <div className="overflow-hidden bg-bgcontact bg-fixed relative md:h-screen">
@@ -48,10 +49,9 @@ const Contact = () => {
                     className="bg-transparent border-x border-y rounded-lg p-3 w-full text-xl"
                     placeholder="Your Message"
                     name="message"
-                    type="text"
                     id="message"
-                    cols="30"
-                    rows="5"
+                    cols={30}
+                    rows={5}
                   ></textarea>
                 </form>
               </div>
