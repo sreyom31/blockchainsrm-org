@@ -12,7 +12,7 @@ const Contact = () => {
           <div className="md:w-1/2 text-white">
             <div className="flex flex-col items-end py-4 px-8 lg:px-16 mr-20">
               <p className="text-2xl lg:text-3xl mb-2">Have a doubt?</p>
-              <p className="text-2xl lg:text-3xl">Drop&apos;us an email at</p>
+              <p className="text-2xl lg:text-3xl mb-2">Drop&apos;us an email at</p>
               <p className="font-bold text-2xl lg:text-3xl mb-2">abc@xyz.com</p>
             </div>
             <div className="flex flex-col items-end py-4 px-8 lg:px-16 mr-20">
