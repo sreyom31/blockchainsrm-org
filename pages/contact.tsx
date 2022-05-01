@@ -1,6 +1,5 @@
 import Navbar from '../components/navbar';
 
-
 const Contact = () => {
   return (
     <div className="overflow-hidden bg-bgcontact bg-fixed relative md:h-screen">
