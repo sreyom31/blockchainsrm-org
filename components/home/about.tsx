@@ -1,6 +1,10 @@
+// eslint-disable-next-line @typescript-eslint/no-var-requires
+const Fade = require('react-reveal/Fade');
+
 const About = () => {
   return (
     <div className="grid auto-cols-auto lg:grid-cols-2 gap-20 xl:gap-40 p-10 lg:p-12 xl:p-16 2xl:p-24 mt-24">
+      <Fade left>
       <div className="box p-6 text-white">
         <p className="text-center font-bold text-4xl md:text-2xl lg:text-4xl mb-4">
           Our Mission
@@ -11,7 +15,9 @@ const About = () => {
           nemo maxime nam, earum sit, libero repudiandae, corrupti at quibusdam.
         </p>
       </div>
-      <div className="box p-6 text-white">
+      </Fade>
+    <Fade right>
+    <div className="box p-6 text-white">
         <p className="text-center font-bold text-4xl md:text-2xl lg:text-4xl mb-4">
           Our Values
         </p>
@@ -22,6 +28,7 @@ const About = () => {
           consequatur pariatur necessitatibus repellat rem eaque provident!
         </p>
       </div>
+    </Fade>
     </div>
   );
 };

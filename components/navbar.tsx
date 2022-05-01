@@ -34,7 +34,7 @@ const Navbar = () => {
           <div
             className={`${
               open ? 'block' : 'hidden'
-            } md:flex md:justify-start flex-1 flex flex-col items-start`}
+            } md:flex md:justify-end flex-1 flex flex-col items-end`}
           >
             <div className="flex bg-opacity-20 flex-col md:flex-row md:items-center mx-5">
               <Link href="/" passHref>
