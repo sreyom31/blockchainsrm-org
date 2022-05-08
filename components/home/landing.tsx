@@ -15,7 +15,7 @@ const Landing = () => {
               </p>
             </div>
             <div className="lg:my-8 lg:py-4">
-              <p className="text-xl md:text-lg lg:text-xl xl:text-2xl">
+              <p className="text-xl md:text-lg lg:text-xl xl:text-2xl text-justify">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Asperiores recusandae a repellendus quis, in quo omnis suscipit
                 ut quos facere vitae facilis adipisci placeat quae numquam

@@ -11,7 +11,7 @@ const About = () => {
           </p>
         </Fade>
         <Fade bottom>
-          <p className="text-xl md:text-lg lg:text-xl">
+          <p className="text-justify text-xl md:text-lg lg:text-xl">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit.
             Perferendis id odio dolorem nemo facere quae eveniet fuga? Optio
             quae molestias nemo maxime nam, earum sit, libero repudiandae,
@@ -26,7 +26,7 @@ const About = () => {
           </p>
         </Fade>
         <Fade bottom>
-          <p className="text-xl md:text-lg lg:text-xl">
+          <p className="text-justify text-xl md:text-lg lg:text-xl">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit.
             Perferendis id odio dolorem nemo facere quae eveniet fuga? Optio
             quae molestias nemo maxime nam, earum sit, libero repudiandae,
