@@ -28,3 +28,21 @@ a {
   backdrop-filter: blur(138.333px);
   border-radius: 30px;
 }
+
+.events-card {
+  box-shadow: -8px 12px 18px #8ff2ff;
+  border-radius: 30px;
+  backdrop-filter: none;
+}
+
+.events-card:hover {
+  background: radial-gradient(
+    69.3% 50% at 50% 50%,
+    rgba(0, 0, 0, 0.19) 45.31%,
+    rgba(143, 242, 255, 0.19) 100%
+  );
+  box-shadow: inset 69.1667px -69.1667px 69.1667px rgba(149, 149, 149, 0.1),
+    inset -69.1667px 69.1667px 69.1667px rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(138.333px);
+  border-radius: 30px;
+}
