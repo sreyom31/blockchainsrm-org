@@ -11,17 +11,16 @@ const Landing = () => {
           <div className="box m-8 md:m-0 p-8 xl:p-8 2xl:p-12 border-2">
             <div className="mb-4 lg:mb-8">
               <p className="text-4xl md:text-2xl lg:text-4xl xl:text-6xl font-bold">
-                Cool tagline goes here
+                Changing world one block at a time.
               </p>
             </div>
             <div className="lg:my-8 lg:py-4">
               <p className="text-xl md:text-lg lg:text-xl xl:text-2xl text-justify">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Asperiores recusandae a repellendus quis, in quo omnis suscipit
-                ut quos facere vitae facilis adipisci placeat quae numquam
-                veritatis quasi ipsa. Rem cumque earum facere hic impedit enim
-                nam iure nesciunt quibusdam, in architecto repudiandae nisi qui
-                quod totam aperiam ipsam soluta.
+                Pioneer student-led blockchain centered community to foster
+                young and inquisitive minds, that believes in implementing
+                concepts of Web3 and Decentralization while educating students
+                about Fundamentals and technical aspects of Trading and blazing
+                a trail for others to follow
               </p>
             </div>
             <div className="mt-4 lg:mt-0">

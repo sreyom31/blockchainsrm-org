@@ -12,15 +12,15 @@ const About = () => {
       <div className="box p-6 text-white transform duration-300 hover:scale-110">
         <Fade top>
           <p className="text-center font-bold text-4xl md:text-2xl lg:text-4xl mb-4">
-            Our Mission
+            Our Vision
           </p>
         </Fade>
         <Fade bottom>
           <p className="text-justify text-xl md:text-lg lg:text-xl">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            Perferendis id odio dolorem nemo facere quae eveniet fuga? Optio
-            quae molestias nemo maxime nam, earum sit, libero repudiandae,
-            corrupti at quibusdam.
+            Empowering blockchain professionals and enthusiasts, and instilling
+            knowledge to be trailblazers in the industry. Providing support and
+            guidance and educating the students with latest advancements in this
+            technology.
           </p>
         </Fade>
       </div>
@@ -32,10 +32,10 @@ const About = () => {
         </Fade>
         <Fade bottom>
           <p className="text-justify text-xl md:text-lg lg:text-xl">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            Perferendis id odio dolorem nemo facere quae eveniet fuga? Optio
-            quae molestias nemo maxime nam, earum sit, libero repudiandae,
-            corrupti at quibusdam.
+            Providing students with opportunities and mock up projects on a
+            regular basis. Educating them on new terms in blockchain and
+            encouraging them to participate in events, hackathons, ideathons and
+            conferences.
           </p>
         </Fade>
       </div>
