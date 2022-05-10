@@ -20,7 +20,7 @@ a {
 }
 
 .box {
-  background: rgba(196, 196, 196, 0.1);
+  background: rgba(0, 0, 0, 0.4);
   border: none;
   box-sizing: border-box;
   box-shadow: inset 69.1667px -69.1667px 69.1667px rgba(149, 149, 149, 0.1),
@@ -45,4 +45,12 @@ a {
     inset -69.1667px 69.1667px 69.1667px rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(138.333px);
   border-radius: 30px;
+}
+
+p {
+  @apply text-lg md:text-base lg:text-lg;
+}
+
+h2 {
+  @apply text-4xl md:text-2xl lg:text-4xl font-bold;
 }
