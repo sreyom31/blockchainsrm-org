@@ -38,17 +38,17 @@ const Navbar = () => {
           >
             <div className="flex bg-opacity-20 flex-col md:flex-row md:items-center mx-5">
               <Link href="/" passHref>
-                <p className="md:my-2 mx-2 my-2 px-2 py-1 transition duration-500 ease-in-out hover:border-secondary cursor-pointer border-b-2 border-transparent font-bold">
+                <p className="md:my-2 mx-3 my-2 px-4 py-1 transition duration-500 ease-in-out hover:border-secondary cursor-pointer border-b-2 border-transparent font-bold">
                   Home
                 </p>
               </Link>
               <Link href="/team" passHref>
-                <p className="md:my-2 mx-2 my-2 px-2 py-1 transition duration-500 ease-in-out hover:border-secondary cursor-pointer border-b-2 border-transparent font-bold">
+                <p className="md:my-2 mx-3 my-2 px-4 py-1 transition duration-500 ease-in-out hover:border-secondary cursor-pointer border-b-2 border-transparent font-bold">
                   Our Team
                 </p>
               </Link>
               <Link href="/contact" passHref>
-                <p className="md:my-2 mx-2 my-2 px-2 py-1 transition duration-500 ease-in-out hover:border-secondary cursor-pointer border-b-2 border-transparent font-bold">
+                <p className="md:my-2 ml-3 my-2 pl-4 py-1 transition duration-500 ease-in-out hover:border-secondary cursor-pointer border-b-2 border-transparent font-bold">
                   Contact Us
                 </p>
               </Link>
