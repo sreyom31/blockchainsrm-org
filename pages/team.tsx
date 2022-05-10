@@ -54,7 +54,7 @@ const Team = () => {
         <div className="text-white flex flex-wrap justify-center">
           {team1.map((mem, index) => (
             <div
-              className="my-8 mx-12 p-10 overflow-hidden rounded-2xl min-w-[15%] hover:bg-[#001823] transition-all duration-300 ease-linear"
+              className="my-4 mx-12 p-10 overflow-hidden rounded-2xl min-w-[15%] hover:bg-[#001823] transition-all duration-300 ease-linear"
               key={index}
             >
               <img
@@ -70,7 +70,7 @@ const Team = () => {
         <div className="text-white flex flex-wrap justify-center px-0 2xl:px-40 xl:px-4">
           {team2.map((mem, index) => (
             <div
-              className="my-10 mx-10 p-12 overflow-hidden rounded-2xl min-w-[15%] hover:bg-[#001823] transition-all duration-300 ease-linear"
+              className="my-4 mx-10 p-12 overflow-hidden rounded-2xl min-w-[15%] hover:bg-[#001823] transition-all duration-300 ease-linear"
               key={index}
             >
               <img
