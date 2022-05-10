@@ -54,3 +54,18 @@ p {
 h2 {
   @apply text-4xl md:text-2xl lg:text-4xl font-bold;
 }
+
+#Main > #base {
+  // display: none;
+  animation-duration: 5s;
+  animation: 3s ease-in-out infinite alternate landing;
+}
+
+@keyframes landing {
+  from {
+    transform: translateY(-7%);
+  }
+  to {
+    transform: translateY(0%);
+  }
+}
