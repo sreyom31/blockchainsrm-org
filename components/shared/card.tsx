@@ -1,10 +1,8 @@
-import Fade from 'react-reveal/Fade';
-
 interface CardProps {
-  heading?: String;
-  paragraph?: String;
+  heading?: string;
+  paragraph?: string;
   children?: React.ReactNode;
-  className?: String;
+  className?: string;
 }
 const Card = ({ heading, paragraph, children, className }: CardProps) => {
   return (

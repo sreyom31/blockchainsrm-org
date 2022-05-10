@@ -24,7 +24,7 @@ const Landing = () => {
             quibusdam, in architecto repudiandae nisi qui quod totam aperiam
             ipsam soluta."
         >
-          <button className="outline-none border-2 border-secondary rounded-full font-semibold transition ease-out delay-100 hover:border-primary flex w-fit">
+          <button className="outline-none border-2 border-secondary rounded-full font-semibold transition ease-out delay-100 hover:border-primary flex w-fit p-2">
             Explore <ArrowRight className="ml-4" />
           </button>
         </Card>
