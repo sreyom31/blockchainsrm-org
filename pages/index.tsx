@@ -7,7 +7,7 @@ import Navbar from '../components/navbar';
 export default function Home() {
   return (
     <>
-      <div className="overflow-hidden bg-bghome bg-no-repeat relative bg-cover bg-fixed px-8">
+      <div className="overflow-hidden bg-bghome bg-no-repeat relative bg-cover bg-fixed sm:px-8">
         <Head>
           <title>BLOCKCHAINSRM | Home</title>
         </Head>

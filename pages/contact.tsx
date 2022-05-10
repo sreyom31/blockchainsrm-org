@@ -2,7 +2,7 @@ import Navbar from '../components/navbar';
 
 const Contact = () => {
   return (
-    <div className="overflow-hidden bg-bgcontact bg-no-repeat relative bg-cover bg-fixed md:h-screen px-8">
+    <div className="overflow-hidden bg-bgcontact bg-no-repeat relative bg-cover bg-fixed md:h-screen sm:px-8">
       <Navbar />
       <div className=" mt-4 flex flex-col items-center">
         <p className="text-white text-5xl font-bold uppercase text-center">

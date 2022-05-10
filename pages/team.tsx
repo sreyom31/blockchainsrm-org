@@ -2,7 +2,7 @@ import Navbar from '../components/navbar';
 
 const Team = () => {
   return (
-    <div className="overflow-hidden bg-bgteam bg-no-repeat relative bg-cover bg-fixed px-8">
+    <div className="overflow-hidden bg-bgteam bg-no-repeat relative bg-cover bg-fixed sm:px-8">
       <Navbar />
       <div>
         <div className="mt-5 py-10">
