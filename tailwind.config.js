@@ -8,10 +8,10 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        bghome: 'url("/images/bghome.svg")',
-        bgevents: 'url("/images/bgevents.svg")',
-        bgteam: 'url("/images/bgteam.svg")',
-        bgcontact: 'url("/images/bgcontact.svg")',
+        bghome: 'url("/images/bghome.png")',
+        bgevents: 'url("/images/bgevents.png")',
+        bgteam: 'url("/images/bgteam.png")',
+        bgcontact: 'url("/images/bgcontact.png")',
       },
       colors: {
         primary: '#b562d3',
