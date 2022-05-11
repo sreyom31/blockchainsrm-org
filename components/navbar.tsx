@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import { Menu } from 'react-feather';
 import Link from 'next/link';
 import Image from 'next/image';
+import React from 'react';
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
@@ -68,13 +69,16 @@ const Navbar = () => {
               className={`flex bg-opacity-20 flex-col md:flex-row md:items-center md:mx-5 mx-0`}
             >
               {tabs.map((tab, id) => (
-                <>
-                  <Link key={id} href={tab.link} passHref>
-                    <p onClick={() => (setOpen(!open))} className="md:my-2 mx-3 my-2 px-4 py-1 transition duration-500 ease-in-out hover:border-secondary cursor-pointer border-b-2 border-transparent font-bold">
+                <React.Fragment key={id}>
+                  <Link href={tab.link} passHref>
+                    <p
+                      onClick={() => setOpen(!open)}
+                      className="md:my-2 mx-3 my-2 px-4 py-1 transition duration-500 ease-in-out hover:border-secondary cursor-pointer border-b-2 border-transparent font-bold"
+                    >
                       {tab.name}
                     </p>
                   </Link>
-                </>
+                </React.Fragment>
               ))}
             </div>
           </div>
