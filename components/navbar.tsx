@@ -30,13 +30,16 @@ const Navbar = () => {
         <div className="md:flex md:items-center md:justify-between">
           <div className="flex justify-between items-center">
             <Link href="/" passHref>
-              <Image
-                src="/images/logo.svg"
-                className="cursor-pointer"
-                alt="BlockchainSRM logo"
-                width={60}
-                height={60}
-              />
+              <div className="flex items-center justify-center cursor-pointer">
+                <Image
+                  src="/images/logo.svg"
+                  className="cursor-pointer"
+                  alt="BlockchainSRM logo"
+                  width={60}
+                  height={60}
+                />
+                BLOCKCHAIN SRM
+              </div>
             </Link>
 
             <div className="flex md:hidden">
