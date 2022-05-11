@@ -52,7 +52,8 @@ function MyApp({ Component, pageProps }: AppProps) {
           content="https://i.postimg.cc/SxXxxdRH/official-Full.png"
         />
         <meta name="twitter:image:alt" content="Blockchain Club SRM" />
-
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="theme-color" content="#000000" />
         <link rel="icon" href="https://i.postimg.cc/zXkXWWpX/official.png" />
         <link rel="canonical" href="https://www.blockchainsrm.org/" />
         <link
