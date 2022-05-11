@@ -50,8 +50,8 @@ const Contact = () => {
 
   return (
     <div className="overflow-hidden bg-bgcontact bg-no-repeat relative bg-cover bg-fixed md:h-screen sm:px-8">
-      <div className=" mt-4 flex flex-col items-center">
-        <p className="text-white text-5xl font-bold uppercase text-center">
+      <div className="mt-32 flex flex-col items-center"> 
+        <p className="text-white text-5xl font-bold uppercase text-center mb-4">
           Contact Us
         </p>
         <div className="my-10 2xl:w-1/2 text-white 2xl:px-16 flex items-center justify-center">

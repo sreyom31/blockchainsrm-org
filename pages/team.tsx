@@ -42,7 +42,7 @@ const team2 = [
 const Team = () => {
   return (
     <div className="overflow-hidden bg-bgteam bg-no-repeat relative bg-cover bg-fixed sm:px-8">
-      <div>
+      <div className="mt-24">
         <div className="mt-5 py-10">
           <p className="uppercase text-white text-center text-5xl font-bold tracking-wide">
             Meet The Team
