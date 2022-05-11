@@ -38,6 +38,7 @@ function MyApp({ Component, pageProps }: AppProps) {
         />
         <meta property="og:locale" content="en_GB" />
         <meta property="og:site_name" content="Blockchain Club SRM" />
+        <meta property="og:image:alt" content="Blockchain Club SRM" />
 
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content="https://www.blockchainsrm.org/" />
