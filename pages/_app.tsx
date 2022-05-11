@@ -60,6 +60,10 @@ function MyApp({ Component, pageProps }: AppProps) {
           rel="apple-touch-icon"
           href="https://i.postimg.cc/zXkXWWpX/official.png"
         />
+        <meta name="geo.region" content="IN-TN" />
+        <meta name="geo.placename" content="Chennai" />
+        <meta name="geo.position" content="13.083694;80.270186" />
+        <meta name="ICBM" content="13.083694, 80.270186" />
       </Head>
       <Navbar />
       <Component {...pageProps} />
