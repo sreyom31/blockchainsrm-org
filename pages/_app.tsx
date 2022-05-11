@@ -34,7 +34,7 @@ function MyApp({ Component, pageProps }: AppProps) {
         />
         <meta
           property="og:image"
-          content="https://i.postimg.cc/XqmqP0GN/officialsmall.png"
+          content="https://i.postimg.cc/SxXxxdRH/official-Full.png"
         />
         <meta property="og:locale" content="en_GB" />
         <meta property="og:site_name" content="Blockchain Club SRM" />
@@ -48,7 +48,7 @@ function MyApp({ Component, pageProps }: AppProps) {
         />
         <meta
           property="twitter:image"
-          content="https://i.postimg.cc/XqmqP0GN/officialsmall.png"
+          content="https://i.postimg.cc/SxXxxdRH/official-Full.png"
         />
         <meta name="twitter:image:alt" content="Blockchain Club SRM" />
 
