@@ -3,7 +3,13 @@ const partners = () => {
   return (
     <div className="flex flex-col gap-4 items-center justify-center">
       <h1 className="mb-24">Our Partners</h1>
-      <div className="flex flex-col md:flex-row gap-24 justify-evenly">
+      <div className="flex flex-wrap flex-col md:flex-row gap-24 justify-evenly">
+        <Image
+          width={500}
+          height={188}
+          src={'/images/partners/Rockhoster.png'}
+          alt="Moralis"
+        />
         <Image
           width={150}
           height={202}
