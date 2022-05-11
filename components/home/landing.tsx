@@ -15,13 +15,8 @@ const Landing = () => {
       </div>
       <Card
         className="md:w-1/2 max-w-2xl"
-        heading="Cool tagline goes here"
-        paragraph="Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores
-            recusandae a repellendus quis, in quo omnis suscipit ut quos facere
-            vitae facilis adipisci placeat quae numquam veritatis quasi ipsa.
-            Rem cumque earum facere hic impedit enim nam iure nesciunt
-            quibusdam, in architecto repudiandae nisi qui quod totam aperiam
-            ipsam soluta."
+        heading="Changing the world one block at a time"
+        paragraph="Pioneer student-led blockchain-centered community to foster young and inquisitive minds, that believes in implementing concepts of Web3 and Decentralization while educating students about Fundamentals and technical aspects of Trading"
       >
         <button className="outline-none border-2 border-secondary rounded-full font-semibold transition ease-out delay-100 hover:border-primary flex w-fit p-2">
           Explore <ArrowRight className="ml-4" />

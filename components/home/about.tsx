@@ -8,18 +8,11 @@ const About = () => {
     <div className="flex flex-col md:flex-row gap-12 lg:gap-32 w-full items-center md:items-start justify-center mx-auto relative min-h-screen pt-32">
       <Card className="max-w-2xl h-max">
         <Fade top>
-          <h2 className="text-center font-bold">Our Mission</h2>
+          <h2 className="text-center font-bold">Our Vision</h2>
         </Fade>
         <Fade bottom>
           <p className="text-justify">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum
-            numquam accusamus illo sed eum, qui fugit sint aliquid similique
-            magnam? Magnam deserunt distinctio voluptates placeat minima
-            corrupti. Voluptates, repudiandae libero voluptatibus amet itaque
-            dolores eos, placeat ipsum suscipit perspiciatis sit ab odit
-            nesciunt dignissimos aspernatur porro facilis, numquam unde ea
-            nostrum ipsam eum dolorum repellendus accusantium? Unde, in rerum?
-            Non.
+          Empowering blockchain professionals and enthusiasts, and instilling knowledge to be trailblazers in the industry. Providing support and guidance and educating the students with latest advancements in this technology. 
           </p>
         </Fade>
       </Card>
@@ -29,13 +22,7 @@ const About = () => {
         </Fade>
         <Fade bottom>
           <p className="text-justify">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita
-            omnis sequi temporibus itaque voluptas a esse quibusdam voluptatibus
-            molestiae tempore molestias reiciendis quidem, blanditiis mollitia
-            similique modi nam dolor quae necessitatibus nesciunt odio quos
-            ipsum corporis perspiciatis. Impedit dolor, iste magni ad quos autem
-            amet possimus, provident esse magnam facere ea vitae nostrum
-            voluptates dicta rem consequatur. Deserunt, iusto veniam.
+          Providing students with opportunities and mock up projects on a regular basis. Educating them on new terms in blockchain and encouraging them to participate in events, hackathons, ideathons and conferences. 
           </p>
         </Fade>
       </Card>

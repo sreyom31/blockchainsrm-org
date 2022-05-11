@@ -16,8 +16,7 @@ const Footer = () => {
             Block<span className="text-secondary">chain</span> <br /> SRM
           </h1>
           <p className="max-w-sm">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci,
-            reiciendis.
+            Student Driven Community here to provide quality to web3 space.
           </p>
           <span className="flex my-8 gap-4">
             <Link href="https://www.instagram.com/blockchainsrm/">

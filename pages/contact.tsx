@@ -23,7 +23,7 @@ const Contact = () => {
         setName('');
         setEmail('');
         setMessage('');
-        toast.success('', {
+        toast.success('Thank you', {
           position: 'top-center',
           autoClose: 5000,
           hideProgressBar: false,
