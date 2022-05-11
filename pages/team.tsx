@@ -86,8 +86,12 @@ const Team = () => {
                 src={mem.img}
                 alt="Member Image"
               />
-              <p className="my-2 mt-4 text-2xl text-center teamName">{mem.name}</p>
-              <p className="my-2 text-xl text-center teamDesignation">{mem.designation}</p>
+              <p className="my-2 mt-4 text-2xl text-center teamName">
+                {mem.name}
+              </p>
+              <p className="my-2 text-xl text-center teamDesignation">
+                {mem.designation}
+              </p>
             </div>
           ))}
         </div>
@@ -102,8 +106,12 @@ const Team = () => {
                 src={mem.img}
                 alt="Member Image"
               />
-              <p className="my-2 mt-4 text-2xl text-center teamName">{mem.name}</p>
-              <p className="my-2 text-xl text-center teamDesignation">{mem.designation}</p>
+              <p className="my-2 mt-4 text-2xl text-center teamName">
+                {mem.name}
+              </p>
+              <p className="my-2 text-xl text-center teamDesignation">
+                {mem.designation}
+              </p>
             </div>
           ))}
         </div>
