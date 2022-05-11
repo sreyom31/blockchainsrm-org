@@ -18,7 +18,7 @@ function MyApp({ Component, pageProps }: AppProps) {
 
         <meta
           name="keywords"
-          content="blockchain club srm blockchainsrm blockchainclubsrm clubsrm blockchainclub"
+          content="blockchain,club,srm,blockchainsrm,blockchainclubsrm,clubsrm, blockchainclub"
         />
         <meta name="robots" content="index, follow" />
         <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
