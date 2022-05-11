@@ -70,7 +70,7 @@ const Navbar = () => {
               {tabs.map((tab, id) => (
                 <>
                   <Link key={id} href={tab.link} passHref>
-                    <p className="md:my-2 mx-3 my-2 px-4 py-1 transition duration-500 ease-in-out hover:border-secondary cursor-pointer border-b-2 border-transparent font-bold">
+                    <p onClick={() => (setOpen(!open))} className="md:my-2 mx-3 my-2 px-4 py-1 transition duration-500 ease-in-out hover:border-secondary cursor-pointer border-b-2 border-transparent font-bold">
                       {tab.name}
                     </p>
                   </Link>

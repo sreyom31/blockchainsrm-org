@@ -32,12 +32,12 @@ const team2 = [
   {
     name: 'Yash Khandelwal',
     designation: 'Crypto Lead',
-    img: '/images/team/YASH.png',
+    img: '/images/team/YASHK.png',
   },
   {
-    name: 'Saketh Donepudi',
-    designation: 'Public Relations Lead',
-    img: '/images/team/SAKETH.png',
+    name: 'Pranay Goenka',
+    designation: 'Crypto Lead',
+    img: '/images/team/PRANAY.png',
   },
   {
     name: 'Yuvraj Patel',
@@ -53,6 +53,16 @@ const team2 = [
     name: 'Akshita Singh',
     designation: 'Creatives Lead',
     img: '/images/team/AKSHITA.png',
+  },
+  {
+    name: 'Yash Saini',
+    designation: 'Corporate Lead',
+    img: '/images/team/YASHS.png',
+  },
+  {
+    name: 'Saketh Donepudi',
+    designation: 'Public Relations Lead',
+    img: '/images/team/SAKETH.png',
   },
 ];
 

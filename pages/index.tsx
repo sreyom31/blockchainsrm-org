@@ -12,7 +12,7 @@ export default function Home() {
       <Head>
         <title>BLOCKCHAINSRM | Home</title>
       </Head>
-      <Layout className="overflow-hidden bg-bghome bg-no-repeat relative bg-cover md:bg-fixed">
+      <Layout className="overflow-hidden bg-bghome bg-no-repeat relative bg-cover bg-fixed">
         <div className="p-4">
           <Landing />
           <About />
