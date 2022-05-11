@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import Card from '../shared/card';
+import Card from '../shared/Card';
 import Fade from 'react-reveal/Fade';
 
 import Bubbles from '../../public/images/mvimg.svg';

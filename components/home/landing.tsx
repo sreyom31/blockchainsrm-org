@@ -1,10 +1,10 @@
 import Image from 'next/image';
 import { ArrowRight } from 'react-feather';
-import Card from '../shared/card';
+import Card from '../shared/Card';
 
 const Landing = () => {
   return (
-    <div className="flex flex-col md:flex-row items-center justify-center mx-auto gap-12 min-h-screen">
+    <div className="flex flex-col md:flex-row items-center justify-center mx-auto gap-12 min-h-screen pt-32 md:pt-0">
       <div className="w-full md:w-5/12 lg:w-1/2 max-w-2xl">
         <Image
           width={897}
