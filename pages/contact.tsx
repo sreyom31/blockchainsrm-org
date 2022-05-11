@@ -24,7 +24,7 @@ const Contact = () => {
         setName('');
         setEmail('');
         setMessage('');
-        toast.success('Thank you', {
+        toast.success(`We're now linked in the loop :)`, {
           position: 'top-center',
           autoClose: 5000,
           hideProgressBar: false,
@@ -52,10 +52,10 @@ const Contact = () => {
   return (
     <>
       <div className="overflow-hidden bg-bgcontact bg-no-repeat relative bg-cover bg-fixed">
-        <div className="mt-32 flex flex-col items-center">
-          <p className="text-white text-5xl font-bold uppercase text-center mb-4">
+        <div className="mt-32 flex flex-col items-center mb-40">
+          {/* <p className="text-white text-5xl font-bold uppercase text-center mb-4">
             Contact Us
-          </p>
+          </p> */}
           <div className="my-10 2xl:w-1/2 text-white 2xl:px-16 flex items-center justify-center">
             <div className="box mx-8 md:m-0 p-8 2xl:p-10 2xl:w-9/12">
               <div className="mb-4">
