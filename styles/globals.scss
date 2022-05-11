@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Montserrat:wght@400;500;600;700&family=Outfit:wght@400;500;700&display=swap');
+
 html,
 body {
   padding: 0;
@@ -18,6 +20,28 @@ a {
 * {
   box-sizing: border-box;
   @apply text-white;
+}
+
+.logoText {
+  font-family: Audiowide;
+}
+
+.pageHeading {
+  font-family: Outfit;
+}
+
+.teamName {
+  font-family: Montserrat;
+  font-weight: 700;
+}
+
+.teamDesignation {
+  font-family: Montserrat;
+  font-weight: 500;
+}
+
+.navText {
+  font-family: Montserrat;
 }
 
 /* width */

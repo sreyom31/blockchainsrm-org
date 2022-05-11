@@ -61,7 +61,7 @@ const team2 = [
   },
   {
     name: 'Saketh Donepudi',
-    designation: 'Public Relations Lead',
+    designation: 'PR Lead',
     img: '/images/team/SAKETH.png',
   },
 ];
@@ -71,7 +71,7 @@ const Team = () => {
     <div className="overflow-hidden bg-bgteam bg-no-repeat relative bg-cover bg-fixed">
       <div className="mt-24">
         <div className="mt-5 py-10">
-          <p className="uppercase text-white text-center text-5xl font-bold tracking-wide">
+          <p className="uppercase text-white text-center text-5xl font-bold tracking-wide pageHeading">
             Meet The Team
           </p>
         </div>
@@ -86,8 +86,8 @@ const Team = () => {
                 src={mem.img}
                 alt="Member Image"
               />
-              <p className="my-2 mt-4 text-2xl text-center">{mem.name}</p>
-              <p className="my-2 text-xl text-center">{mem.designation}</p>
+              <p className="my-2 mt-4 text-2xl text-center teamName">{mem.name}</p>
+              <p className="my-2 text-xl text-center teamDesignation">{mem.designation}</p>
             </div>
           ))}
         </div>
@@ -102,8 +102,8 @@ const Team = () => {
                 src={mem.img}
                 alt="Member Image"
               />
-              <p className="my-2 mt-4 text-2xl text-center">{mem.name}</p>
-              <p className="my-2 text-xl text-center">{mem.designation}</p>
+              <p className="my-2 mt-4 text-2xl text-center teamName">{mem.name}</p>
+              <p className="my-2 text-xl text-center teamDesignation">{mem.designation}</p>
             </div>
           ))}
         </div>

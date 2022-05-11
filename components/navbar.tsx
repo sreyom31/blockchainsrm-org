@@ -37,7 +37,7 @@ const Navbar = () => {
         <div className="md:flex md:items-center md:justify-between">
           <div className="flex justify-between items-center">
             <Link href="/" passHref>
-              <div className="flex items-center justify-center cursor-pointer">
+              <div className="flex items-center justify-center cursor-pointer logoText">
                 <Image
                   src="/images/logo.svg"
                   className="cursor-pointer"
@@ -73,7 +73,7 @@ const Navbar = () => {
                   <Link href={tab.link} passHref>
                     <p
                       onClick={() => setOpen(!open)}
-                      className="md:my-2 mx-3 my-2 px-4 py-1 transition duration-500 ease-in-out hover:border-secondary cursor-pointer border-b-2 border-transparent font-bold"
+                      className="md:my-2 mx-3 my-2 px-4 py-1 transition duration-500 ease-in-out hover:border-secondary cursor-pointer border-b-2 border-transparent font-bold navText"
                     >
                       {tab.name}
                     </p>
