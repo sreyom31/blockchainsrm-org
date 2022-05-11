@@ -8,9 +8,9 @@ const Contact = () => {
           Contact Us
         </p>
         <div className="my-10 2xl:w-1/2 text-white 2xl:px-16 flex items-center justify-center">
-          <div className="box m-8 md:m-0 p-8 2xl:p-10 2xl:w-9/12">
+          <div className="box mx-8 md:m-0 p-8 2xl:p-10 2xl:w-9/12">
             <div className="mb-4">
-              <p className="text-4xl md:text-3xl lg:text-4xl font-bold text-center">
+              <p className="text-3xl lg:text-4xl font-bold text-center">
                 Let&apos;s Get in Touch!
               </p>
             </div>

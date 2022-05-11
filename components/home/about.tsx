@@ -38,6 +38,7 @@ const About = () => {
             ipsum corporis perspiciatis. Impedit dolor, iste magni ad quos autem
             amet possimus, provident esse magnam facere ea vitae nostrum
             voluptates dicta rem consequatur. Deserunt, iusto veniam.
+
           </p>
         </Fade>
       </Card>
