@@ -1,24 +1,46 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { Menu } from 'react-feather';
 import Link from 'next/link';
+import Image from 'next/image';
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
+  const [isScrolled, setIsScrolled] = useState(false);
+
+  const listenScrollEvent = (e: Event) => {
+    if (window.scrollY > 200) {
+      setIsScrolled(true);
+    } else {
+      setIsScrolled(false);
+    }
+  };
+
+  useEffect(() => {
+    window.addEventListener('scroll', listenScrollEvent);
+    return () => window.removeEventListener('scroll', listenScrollEvent);
+  }, []);
 
   return (
-    <nav className="sticky top-0 z-50 w-full">
+    <nav
+      className={`fixed top-0 z-50 w-full bg-black transition-all duration-300 ${
+        isScrolled ? 'bg-opacity-30' : 'bg-opacity-25 md:bg-opacity-0'
+      } `}
+    >
       <div className="text-white px-6 py-3 w-full">
         <div className="md:flex md:items-center md:justify-between">
           <div className="flex justify-between items-center">
-            <div>
-              <Link href="/" passHref>
-                <img
-                  className="w-20"
+            <Link href="/" passHref>
+              <div className="flex items-center justify-center cursor-pointer">
+                <Image
                   src="/images/logo.svg"
+                  className="cursor-pointer"
                   alt="BlockchainSRM logo"
+                  width={60}
+                  height={60}
                 />
-              </Link>
-            </div>
+                BLOCKCHAIN SRM
+              </div>
+            </Link>
 
             <div className="flex md:hidden">
               <button

@@ -17,10 +17,11 @@ a {
 
 * {
   box-sizing: border-box;
+  @apply text-white;
 }
 
 .box {
-  background: rgba(196, 196, 196, 0.1);
+  background: rgba(0, 0, 0, 0.4);
   border: none;
   box-sizing: border-box;
   box-shadow: inset 69.1667px -69.1667px 69.1667px rgba(149, 149, 149, 0.1),
@@ -33,16 +34,45 @@ a {
   box-shadow: -8px 12px 18px #8ff2ff;
   border-radius: 30px;
   backdrop-filter: none;
+  transition: all 500ms ease-in-out;
+
+  &:hover {
+    background: radial-gradient(
+      69.3% 50% at 50% 50%,
+      rgba(0, 0, 0, 0.19) 45.31%,
+      rgba(143, 242, 255, 0.19) 100%
+    );
+    box-shadow: inset 69.1667px -69.1667px 69.1667px rgba(149, 149, 149, 0.1),
+      inset -69.1667px 69.1667px 69.1667px rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(138.333px);
+    border-radius: 30px;
+  }
 }
 
-.events-card:hover {
-  background: radial-gradient(
-    69.3% 50% at 50% 50%,
-    rgba(0, 0, 0, 0.19) 45.31%,
-    rgba(143, 242, 255, 0.19) 100%
-  );
-  box-shadow: inset 69.1667px -69.1667px 69.1667px rgba(149, 149, 149, 0.1),
-    inset -69.1667px 69.1667px 69.1667px rgba(255, 255, 255, 0.1);
-  backdrop-filter: blur(138.333px);
-  border-radius: 30px;
+p {
+  @apply text-lg md:text-base lg:text-lg;
+}
+
+h1 {
+  @apply text-5xl md:text-3xl lg:text-5xl font-bold;
+}
+
+h2 {
+  @apply text-4xl md:text-2xl lg:text-4xl font-bold;
+}
+
+#Main {
+  & > * > #base {
+    animation-duration: 5s;
+    animation: 2s ease-in-out infinite alternate landing;
+  }
+}
+
+@keyframes landing {
+  from {
+    transform: translateY(-12%);
+  }
+  to {
+    transform: translateY(0%);
+  }
 }

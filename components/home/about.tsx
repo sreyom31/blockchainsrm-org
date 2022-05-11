@@ -1,43 +1,49 @@
-// eslint-disable-next-line @typescript-eslint/no-var-requires
-const Fade = require('react-reveal/Fade');
+import Image from 'next/image';
+import Card from '../shared/Card';
+import Fade from 'react-reveal/Fade';
+
+import Bubbles from '../../public/images/mvimg.svg';
+import { ReactSVG } from 'react-svg';
 
 const About = () => {
   return (
-    <div className="grid auto-cols-auto lg:grid-cols-2 gap-20 xl:gap-40 px-10 lg:px-12 xl:px-16 2xl:px-24 pt-10 lg:pt-12 xl:pt-16 2xl:pt-24 pb-96 mt-24 relative">
-      <img
-        src="/images/mvimg.svg"
-        className="absolute bottom-14 left-[50%] translate-x-[-50%]"
-        alt=""
-      />
-      <div className="box p-6 text-white transform duration-300 hover:scale-110">
+    <div className="flex flex-col md:flex-row gap-12 lg:gap-32 w-full items-center md:items-start justify-center mx-auto relative min-h-screen pt-32">
+      <Card className="max-w-2xl h-max">
         <Fade top>
-          <p className="text-center font-bold text-4xl md:text-2xl lg:text-4xl mb-4">
-            Our Vision
-          </p>
+          <h2 className="text-center font-bold">Our Mission</h2>
         </Fade>
         <Fade bottom>
-          <p className="text-justify text-xl md:text-lg lg:text-xl">
-            Empowering blockchain professionals and enthusiasts, and instilling
-            knowledge to be trailblazers in the industry. Providing support and
-            guidance and educating the students with latest advancements in this
-            technology.
+          <p className="text-justify">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum
+            numquam accusamus illo sed eum, qui fugit sint aliquid similique
+            magnam? Magnam deserunt distinctio voluptates placeat minima
+            corrupti. Voluptates, repudiandae libero voluptatibus amet itaque
+            dolores eos, placeat ipsum suscipit perspiciatis sit ab odit
+            nesciunt dignissimos aspernatur porro facilis, numquam unde ea
+            nostrum ipsam eum dolorum repellendus accusantium? Unde, in rerum?
+            Non.
           </p>
         </Fade>
-      </div>
-      <div className="box p-6 text-white transform duration-300 hover:scale-110">
+      </Card>
+      <Card className="max-w-2xl h-max">
         <Fade top>
-          <p className="text-center font-bold text-4xl md:text-2xl lg:text-4xl mb-4">
-            Our Mission
-          </p>
+          <h2 className="text-center font-bold">Our Mission</h2>
         </Fade>
         <Fade bottom>
-          <p className="text-justify text-xl md:text-lg lg:text-xl">
-            Providing students with opportunities and mock up projects on a
-            regular basis. Educating them on new terms in blockchain and
-            encouraging them to participate in events, hackathons, ideathons and
-            conferences.
+          <p className="text-justify">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita
+            omnis sequi temporibus itaque voluptas a esse quibusdam voluptatibus
+            molestiae tempore molestias reiciendis quidem, blanditiis mollitia
+            similique modi nam dolor quae necessitatibus nesciunt odio quos
+            ipsum corporis perspiciatis. Impedit dolor, iste magni ad quos autem
+            amet possimus, provident esse magnam facere ea vitae nostrum
+            voluptates dicta rem consequatur. Deserunt, iusto veniam.
+
           </p>
         </Fade>
+      </Card>
+      <div className="mvimg md:absolute mx-auto top-[40%]">
+        <ReactSVG src="/images/mvimg.svg" />
       </div>
     </div>
   );
