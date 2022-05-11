@@ -7,7 +7,7 @@ const Navbar = () => {
   const [open, setOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
 
-  const listenScrollEvent = (e: Event) => {
+  const listenScrollEvent = () => {
     if (window.scrollY > 200) {
       setIsScrolled(true);
     } else {

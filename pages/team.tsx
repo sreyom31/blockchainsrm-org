@@ -1,5 +1,3 @@
-import Navbar from '../components/navbar';
-
 const team1 = [
   {
     name: 'Aditya Jain',

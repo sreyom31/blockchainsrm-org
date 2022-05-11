@@ -1,8 +1,6 @@
-import Image from 'next/image';
 import Card from '../shared/Card';
 import Fade from 'react-reveal/Fade';
 
-import Bubbles from '../../public/images/mvimg.svg';
 import { ReactSVG } from 'react-svg';
 
 const About = () => {
@@ -38,7 +36,6 @@ const About = () => {
             ipsum corporis perspiciatis. Impedit dolor, iste magni ad quos autem
             amet possimus, provident esse magnam facere ea vitae nostrum
             voluptates dicta rem consequatur. Deserunt, iusto veniam.
-
           </p>
         </Fade>
       </Card>

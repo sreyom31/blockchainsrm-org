@@ -2,7 +2,6 @@ import Head from 'next/head';
 import About from '../components/home/about';
 import Events from '../components/home/events';
 import Landing from '../components/home/landing';
-import Navbar from '../components/navbar';
 import Layout from '../components/shared/Layout';
 
 export default function Home() {
