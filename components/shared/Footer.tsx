@@ -10,7 +10,7 @@ import {
 const Footer = () => {
   return (
     <>
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-4 bg-black p-4 md:px-16 md:py-8">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-4 p-4 md:px-16 md:py-8 mt-24 bg-black bg-opacity-50 backdrop-blur-md">
         <section id="about">
           <h1 className="mb-8">
             Block<span className="text-secondary">chain</span> <br /> SRM
