@@ -7,6 +7,12 @@ const Navbar = () => {
   const [open, setOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
 
+  const tabs = [
+    { name: 'Home', link: '/' },
+    { name: 'Our Team', link: '/team' },
+    { name: 'Contact Us', link: '/contact' },
+  ];
+
   const listenScrollEvent = () => {
     if (window.scrollY > 200) {
       setIsScrolled(true);
@@ -22,7 +28,7 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`fixed top-0 z-50 w-full bg-black transition-all duration-300 ${
+      className={`fixed top-0 z-50 w-full bg-black transition-all duration-300 backdrop-blur-md ${
         isScrolled ? 'bg-opacity-30' : 'bg-opacity-25 md:bg-opacity-0'
       } `}
     >
@@ -56,25 +62,20 @@ const Navbar = () => {
           <div
             className={`${
               open ? 'block' : 'hidden'
-            } md:flex md:justify-end flex-1 flex flex-col items-end`}
+            } md:flex md:justify-end flex-1 flex flex-col items-end text-right`}
           >
-            <div className="flex bg-opacity-20 flex-col md:flex-row md:items-center mx-5">
-              <Link href="/" passHref>
-                <p className="md:my-2 mx-3 my-2 px-4 py-1 transition duration-500 ease-in-out hover:border-secondary cursor-pointer border-b-2 border-transparent font-bold">
-                  Home
-                </p>
-              </Link>
-              <Link href="/team" passHref>
-                <p className="md:my-2 mx-3 my-2 px-4 py-1 transition duration-500 ease-in-out hover:border-secondary cursor-pointer border-b-2 border-transparent font-bold">
-                  Our Team
-                </p>
-              </Link>
-              <Link href="/contact" passHref>
-                <p className="md:my-2 ml-3 my-2 pl-4 py-1 transition duration-500 ease-in-out hover:border-secondary cursor-pointer border-b-2 border-transparent font-bold">
-                  Contact Us
-                </p>
-              </Link>
-              <hr />
+            <div
+              className={`flex bg-opacity-20 flex-col md:flex-row md:items-center md:mx-5 mx-0`}
+            >
+              {tabs.map((tab, id) => (
+                <>
+                  <Link key={id} href={tab.link} passHref>
+                    <p className="md:my-2 mx-3 my-2 px-4 py-1 transition duration-500 ease-in-out hover:border-secondary cursor-pointer border-b-2 border-transparent font-bold">
+                      {tab.name}
+                    </p>
+                  </Link>
+                </>
+              ))}
             </div>
           </div>
         </div>

@@ -18,7 +18,7 @@ const Landing = () => {
         heading="Changing the world one block at a time"
         paragraph="Pioneer student-led blockchain-centered community to foster young and inquisitive minds, that believes in implementing concepts of Web3 and Decentralization while educating students about Fundamentals and technical aspects of Trading"
       >
-        <button className="outline-none border-2 border-secondary rounded-full font-semibold transition ease-out delay-100 hover:border-primary flex w-fit p-2">
+        <button className="outline-none border-2 border-secondary rounded-full font-semibold transition ease-out delay-100 hover:border-primary flex w-fit p-2 pl-4">
           Explore <ArrowRight className="ml-4" />
         </button>
       </Card>

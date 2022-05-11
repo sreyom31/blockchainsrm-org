@@ -71,6 +71,7 @@ const Contact = () => {
                     type="text"
                     onChange={(e) => setName(e.target.value)}
                     value={name}
+                    required
                   />
                   <input
                     className="bg-transparent border-x border-y rounded-lg mb-6 block p-3 w-full text-xl"
@@ -80,6 +81,7 @@ const Contact = () => {
                     id="email"
                     onChange={(e) => setEmail(e.target.value)}
                     value={email}
+                    required
                   />
                   <textarea
                     className="bg-transparent border-x border-y rounded-lg p-3 w-full text-xl"
@@ -88,6 +90,7 @@ const Contact = () => {
                     id="message"
                     cols={30}
                     rows={5}
+                    required
                     onChange={(e) => setMessage(e.target.value)}
                     value={message}
                   ></textarea>
@@ -95,6 +98,7 @@ const Contact = () => {
               </div>
               <div className="mt-4 flex justify-end">
                 <button
+                  type="submit"
                   onClick={handleSubmit}
                   className="p-2 px-4 outline-none border-2 border-secondary rounded-full font-semibold transition ease-out delay-100 hover:border-primary flex text-xl"
                 >

@@ -1,4 +1,4 @@
-import Footer from "../components/shared/Footer";
+import Footer from '../components/shared/Footer';
 
 const team1 = [
   {
@@ -57,7 +57,7 @@ const Team = () => {
               key={index}
             >
               <img
-                className="rounded-full w-52 mx-auto hover:scale-110 transition-all duration-300 ease-linear"
+                className="rounded-full w-52 mx-auto hover:scale-110 transition-all duration-300 ease-linear transform-gpu"
                 src={mem.img}
                 alt="Member Image"
               />

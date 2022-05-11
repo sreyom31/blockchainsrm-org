@@ -6,6 +6,7 @@ import {
   AiOutlineLinkedin,
   AiOutlineGithub,
 } from 'react-icons/ai';
+import { Mail, Phone } from 'react-feather';
 
 const Footer = () => {
   return (
@@ -53,11 +54,28 @@ const Footer = () => {
         <section id="doubt">
           <h2 className="text-secondary mb-8">Have a doubt?</h2>
           <p className="mb-8">
-            Drop us an email at <br /> team@blockchainsrm.org
+            Drop us an email at <br />{' '}
+            <Link href={'mailto:team@blockchainsrm.org'}>
+              <div className="flex gap-3 items-center mt-2">
+                <Mail />
+                team@blockchainsrm.org
+              </div>
+            </Link>
           </p>
           <p className="mb-4">Phone Number</p>
-          <p>6263121519</p>
-          <p>7735988951</p>
+          <Link href="tel:+916263121519">
+            <div className="flex gap-3 items-center mt-2">
+              <Phone />
+              +91&nbsp;&nbsp;6263121519
+            </div>
+          </Link>
+          <br />
+          <Link href="tel:+917735988951">
+            <div className="flex gap-3 items-center mt-2">
+              <Phone />
+              +91&nbsp;&nbsp;7735988951
+            </div>
+          </Link>
         </section>
         <div className="md:col-span-3 border-2 w-full border-white my-8"></div>
         <span className="col-start-1">

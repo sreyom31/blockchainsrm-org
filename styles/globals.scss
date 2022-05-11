@@ -64,7 +64,7 @@ h2 {
 #Main {
   & > * > #base {
     animation-duration: 5s;
-    animation: 2s ease-in-out infinite alternate landing;
+    animation: 2s ease-out infinite alternate landing;
   }
 }
 
