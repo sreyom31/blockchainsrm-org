@@ -4,40 +4,55 @@ const team1 = [
   {
     name: 'Aditya Jain',
     designation: 'President',
-    img: '/images/team/ADITYA.jpeg',
+    img: '/images/team/ADITYA.png',
   },
   {
     name: 'Sreyom Sresaan',
     designation: 'Vice-President',
-    img: '/images/team/SREYOM.jpeg',
+    img: '/images/team/SREYOM.png',
   },
 ];
 
 const team2 = [
   {
-    name: 'Yash Khandelwal',
-    designation: 'Crypto Lead',
-    img: '/images/team/YASH.jpeg',
-  },
-  {
     name: 'Deepak Kumar',
     designation: 'Tech Lead',
-    img: '/images/team/DEEPAK.jpeg',
+    img: '/images/team/DEEPAK.png',
+  },
+  {
+    name: 'Viraj Agarwal',
+    designation: 'Web Lead',
+    img: '/images/team/VIRAJ.png',
   },
   {
     name: 'Abhivansh',
     designation: 'App Lead',
-    img: '/images/team/ABHIVANSH.jpeg',
+    img: '/images/team/ABHIVANSH.png',
+  },
+  {
+    name: 'Yash Khandelwal',
+    designation: 'Crypto Lead',
+    img: '/images/team/YASH.png',
+  },
+  {
+    name: 'Saketh Donepudi',
+    designation: 'Public Relations Lead',
+    img: '/images/team/SAKETH.png',
   },
   {
     name: 'Yuvraj Patel',
-    designation: 'Non-Tech Lead',
-    img: '/images/team/YUVRAJ.jpeg',
+    designation: 'Operations Lead',
+    img: '/images/team/YUVRAJ.png',
+  },
+  {
+    name: 'Shweta Sanadhya',
+    designation: 'Creatives Lead',
+    img: '/images/team/SHWETA.png',
   },
   {
     name: 'Akshita Singh',
     designation: 'Creatives Lead',
-    img: '/images/team/AKSHITA.jpeg',
+    img: '/images/team/AKSHITA.png',
   },
 ];
 
@@ -57,7 +72,7 @@ const Team = () => {
               key={index}
             >
               <img
-                className="rounded-full w-52 mx-auto hover:scale-110 transition-all duration-300 ease-linear transform-gpu"
+                className="w-52 mx-auto hover:scale-110 transition-all duration-300 ease-linear transform-gpu rounded-[4rem]"
                 src={mem.img}
                 alt="Member Image"
               />
@@ -66,7 +81,7 @@ const Team = () => {
             </div>
           ))}
         </div>
-        <div className="text-white flex flex-wrap justify-center px-0 2xl:px-40 xl:px-4">
+        <div className="text-white flex flex-wrap justify-center px-0 2xl:px-40 xl:px-4 max-w-[1600px] mx-auto">
           {team2.map((mem, index) => (
             <div
               className="my-4 mx-10 p-12 overflow-hidden rounded-2xl min-w-[15%] hover:bg-[#001823] transition-all duration-300 ease-linear"
