@@ -12,7 +12,10 @@ const About = () => {
         </Fade>
         <Fade bottom>
           <p className="text-justify">
-          Empowering blockchain professionals and enthusiasts, and instilling knowledge to be trailblazers in the industry. Providing support and guidance and educating the students with latest advancements in this technology. 
+            Empowering blockchain professionals and enthusiasts, and instilling
+            knowledge to be trailblazers in the industry. Providing support and
+            guidance and educating the students with latest advancements in this
+            technology.
           </p>
         </Fade>
       </Card>
@@ -22,7 +25,10 @@ const About = () => {
         </Fade>
         <Fade bottom>
           <p className="text-justify">
-          Providing students with opportunities and mock up projects on a regular basis. Educating them on new terms in blockchain and encouraging them to participate in events, hackathons, ideathons and conferences. 
+            Providing students with opportunities and mock up projects on a
+            regular basis. Educating them on new terms in blockchain and
+            encouraging them to participate in events, hackathons, ideathons and
+            conferences.
           </p>
         </Fade>
       </Card>

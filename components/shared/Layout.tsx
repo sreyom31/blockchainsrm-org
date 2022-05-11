@@ -7,9 +7,7 @@ const Layout = ({
   children: React.ReactNode;
   className?: string;
 }) => {
-  return (
-    <div className={`${className && className}`}>{children}</div>
-  );
+  return <div className={`${className && className}`}>{children}</div>;
 };
 
 export default Layout;

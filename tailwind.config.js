@@ -14,8 +14,8 @@ module.exports = {
         bgcontact: 'url("/images/bgcontact.png")',
       },
       colors: {
-        'primary': '#b562d3',
-        'secondary': '#01e8fb',
+        primary: '#b562d3',
+        secondary: '#01e8fb',
         'purple-accent': '#A31FA9',
       },
     },
