@@ -20,21 +20,31 @@ const Footer = () => {
             Student Driven Community here to provide quality to web3 space.
           </p>
           <span className="flex my-8 gap-4">
-            <a target="_blank" href="https://www.instagram.com/blockchainsrm/">
+            <a
+              rel="noreferrer"
+              target="_blank"
+              href="https://www.instagram.com/blockchainsrm/"
+            >
               <AiOutlineInstagram size={48} />
             </a>
             <a
               target="_blank"
               href="https://github.com/orgs/Blockchain-Club-SRM/"
+              rel="noreferrer"
             >
               <AiOutlineGithub size={48} />
             </a>
-            <a target="_blank" href="https://mobile.twitter.com/BlockchainSRM">
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://mobile.twitter.com/BlockchainSRM"
+            >
               <AiOutlineTwitter size={48} />
             </a>
             <a
               target="_blank"
               href="https://www.linkedin.com/company/blockchain-club-srm"
+              rel="noreferrer"
             >
               <AiOutlineLinkedin size={48} />
             </a>
