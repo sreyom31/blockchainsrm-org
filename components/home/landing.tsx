@@ -29,7 +29,7 @@ const Landing = () => {
       </Card>
 
       <div
-        className="absolute bottom-16 border-b-2 border-l-2 aspect-square -rotate-45 animate-pulse h-10 cursor-pointer"
+        className="hidden md:block absolute bottom-16 border-b-2 border-l-2 aspect-square -rotate-45 animate-pulse h-10 cursor-pointer"
         onClick={() => {
           window.scrollTo(0, window.innerHeight);
         }}
