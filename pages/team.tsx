@@ -56,12 +56,12 @@ const team2 = [
   },
   {
     name: 'Yash Saini',
-    designation: 'Corporate Lead',
+    designation: 'PR Lead',
     img: '/images/team/YASHS.png',
   },
   {
     name: 'Saketh Donepudi',
-    designation: 'PR Lead',
+    designation: 'Corporate Lead',
     img: '/images/team/SAKETH.png',
   },
 ];
