@@ -9,6 +9,7 @@ import {
 import { Mail, Phone } from 'react-feather';
 
 const Footer = () => {
+  const links = [{ href: '', element: AiOutlineGithub }];
   return (
     <>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4 p-4 md:px-16 md:py-8 mt-24 bg-black bg-opacity-50 backdrop-blur-md">
@@ -19,36 +20,16 @@ const Footer = () => {
           <p className="max-w-sm">
             Student Driven Community here to provide quality to web3 space.
           </p>
-          <span className="flex my-8 gap-4">
-            <a
-              rel="noreferrer"
-              target="_blank"
-              href="https://www.instagram.com/blockchainsrm/"
-            >
-              <AiOutlineInstagram size={48} />
-            </a>
-            <a
-              target="_blank"
-              href="https://github.com/orgs/Blockchain-Club-SRM/"
-              rel="noreferrer"
-            >
-              <AiOutlineGithub size={48} />
-            </a>
-            <a
-              target="_blank"
-              rel="noreferrer"
-              href="https://mobile.twitter.com/BlockchainSRM"
-            >
-              <AiOutlineTwitter size={48} />
-            </a>
-            <a
-              target="_blank"
-              href="https://www.linkedin.com/company/blockchain-club-srm"
-              rel="noreferrer"
-            >
-              <AiOutlineLinkedin size={48} />
-            </a>
-          </span>
+          <div className="flex my-8 gap-4">
+            {links.map((link, id) => {
+              const Element = link.element;
+              return (
+                <a key={id} rel="noreferrer" target="_blank" href={link.href}>
+                  <Element size={48} />
+                </a>
+              );
+            })}
+          </div>
         </section>
         <section id="quick-links">
           <h2 className="text-secondary mb-8">Quick Links</h2>
