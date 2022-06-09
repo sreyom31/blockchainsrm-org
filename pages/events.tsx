@@ -10,26 +10,26 @@ const events = () => {
   const events: eventType[] = [
     {
       name: 'recruitments',
-      link: 'https://google.com',
-      description:
-        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur repudiandae aliquam molestias sit et quam illum a cum minus totam?',
+      link: 'https://m4v7oxop5a9.typeform.com/to/bDbnyk1G',
+      description: `pull up your socks, to flow your pond of web3.0- smartness,  and creativity.
+We blockchainclub of SRM started with our recruitment process with new home and an elated spirit. 
+With all the excitement for doing something unheard of , join us to explore , learn and teach`,
       date: '',
     },
     {
-      name: 'Verve',
-      link: 'https://google.com',
-      description:
-        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur repudiandae aliquam molestias sit et quam illum a cum minus totam?',
+      name: 'Byzantine',
+      link: 'https://m4v7oxop5a9.typeform.com/to/ldwEXqzr',
+      description: `We bring to you - Byzantine, an event in the chain of events lined up for you all. We believe it will help you get in touch with blockchain and will be opening the doorway for new horizons of understanding about the topics.\n \nRegister ASAP, and do not miss to get a chance to catch a glimpse of this vast network and be a part of it, starting, "one block at a time"`,
       date: '13.06.22',
     },
   ];
   const EventCard = ({ event }: { event: eventType }) => (
-    <div className="events-card p-8 flex flex-col md:w-96 max-w-xs bg-black bg-opacity-60">
+    <div className="events-card p-8 flex flex-col md:w-[28rem] max-w-[30rem] bg-black bg-opacity-60 m-3">
       <h4 className="capitalize text-3xl font-bold">{event.name}</h4>
       {event.date && <span>{event.date}</span>}
-      <p className="mt-6">{event.description}</p>
+      <p className="mt-6 capitalize text-sm">{event.description}</p>
       {event.link && (
-        <button className="px-4 py-2 border-2 border-white w-max mt-3 rounded-lg mx-auto">
+        <button className="px-2 py-1 border-2 border-white w-max mt-5 rounded-lg mx-auto">
           <a href={event.link} target="_blank" rel="noopener noreferrer">
             Register Now
           </a>
