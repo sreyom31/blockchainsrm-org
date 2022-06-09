@@ -9,7 +9,7 @@ const team1 = [
   {
     name: 'Sarvottam Mishra',
     designation: 'Vice-President',
-    img: '/images/team/SARVOTTAM.jpeg',
+    img: '/images/team/SARVOTTAM.png',
   },
   {
     name: 'Sreyom Sresaan',

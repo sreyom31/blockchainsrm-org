@@ -24,10 +24,16 @@ With all the excitement for doing something unheard of , join us to explore , le
     },
   ];
   const EventCard = ({ event }: { event: eventType }) => (
-    <div className="events-card p-8 flex flex-col md:w-[28rem] max-w-[30rem] bg-black bg-opacity-60 m-3">
-      <h4 className="capitalize text-3xl font-bold">{event.name}</h4>
-      {event.date && <span>{event.date}</span>}
-      <p className="mt-6 capitalize text-sm">{event.description}</p>
+    <div className="events-card p-8 grid w-[85vw] md:w-[20rem] lg:w-[28rem] md:max-w-[30rem] bg-black bg-opacity-60 m-3 md:mx-auto h-full">
+      <div className="h-min">
+        <h4 className="capitalize text-3xl font-bold">{event.name}</h4>
+        {event.date && <span>{event.date}</span>}
+      </div>
+      <div className="mt-3">
+        {event.description.split('\n').map((para) => (
+          <p className="text-sm capitalize mt-3">{para}</p>
+        ))}
+      </div>
       {event.link && (
         <button className="px-2 py-1 border-2 border-white w-max mt-5 rounded-lg mx-auto">
           <a href={event.link} target="_blank" rel="noopener noreferrer">
@@ -42,7 +48,7 @@ With all the excitement for doing something unheard of , join us to explore , le
     <div className="w-screen min-h-screen bg-bgevents bg-center bg-cover flex items-center justify-center flex-col pt-32 pb-8">
       <h1 className="mb-12">EVENTS</h1>
 
-      <div className="flex justify-center items-center w-full gap-12 text-center flex-col md:flex-row">
+      <div className="grid grid-cols-1 md:grid-cols-2 justify-center items-center w-max gap-12 text-center">
         {events.map((event, id) => (
           <EventCard key={id} event={event} />
         ))}
