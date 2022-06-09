@@ -30,8 +30,10 @@ With all the excitement for doing something unheard of , join us to explore , le
         {event.date && <span>{event.date}</span>}
       </div>
       <div className="mt-3">
-        {event.description.split('\n').map((para) => (
-          <p className="text-sm capitalize mt-3">{para}</p>
+        {event.description.split('\n').map((para, id) => (
+          <p className="text-sm capitalize mt-3" key={id}>
+            {para}
+          </p>
         ))}
       </div>
       {event.link && (
