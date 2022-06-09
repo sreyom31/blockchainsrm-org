@@ -10,6 +10,7 @@ const Navbar = () => {
 
   const tabs = [
     { name: 'Home', link: '/' },
+    { name: 'Events', link: '/events' },
     { name: 'Our Team', link: '/team' },
     { name: 'Contact Us', link: '/contact' },
   ];
